@@ -11,10 +11,11 @@ router.get('/', (req, res) => {
 });
 
 router.post('/create-checkout-session', async (req, res) => {
+
   const session = await stripe.checkout.sessions.create({
     line_items: [
       {
-        price: 'price_1LUKBLDbM43bJ0ypsB45ZW2L', // Price ID
+        price: req.body.priceID, // Price ID
         quantity: 1,
       },
     ],
