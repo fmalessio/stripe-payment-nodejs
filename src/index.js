@@ -1,6 +1,7 @@
 const express = require('express');
 const expresshbs = require('express-handlebars');
 const path = require('path');
+const { domain, port } = require('./config');
 
 // App init
 const app = express();
@@ -30,6 +31,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 // Listen on port
-app.listen(3000, ()=> {
-    console.log('Server started on port ', 3000);
+app.listen(port, ()=> {
+    console.log(`Server started ${domain}`);
 });

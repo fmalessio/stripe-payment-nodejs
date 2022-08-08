@@ -1,8 +1,9 @@
 const { Router } = require('express');
 const router = Router();
-const stripe = require('stripe')('TODO_ADD_ID');
+const { domain, stripeSecret } = require('../config');
 
-const MY_DOMAIN = 'http://localhost:3000';
+// Stripe
+const stripe = require('stripe')(stripeSecret);
 
 router.get('/', (req, res) => {
     console.log('Redirecting to product...');
@@ -18,8 +19,8 @@ router.post('/create-checkout-session', async (req, res) => {
       },
     ],
     mode: 'payment',
-    success_url: `${MY_DOMAIN}/result/success`,
-    cancel_url: `${MY_DOMAIN}/result/cancel`,
+    success_url: `${domain}/result/success`,
+    cancel_url: `${domain}/result/cancel`,
   });
 
   res.redirect(303, session.url);
