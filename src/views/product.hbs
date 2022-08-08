@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-auto">
+        {{> product-title }}
+        <div class="card">
+            <img src="img/product200.jpg" alt="product img" style="margin: auto;" width="200px" height="200px">
+            <h2>$50</h2>
+            <div class="card-body">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eveniet maxime, non quis dolores quod
+                    itaque voluptates iure quidem dolore unde laudantium molestias veritatis magnam ipsa magni debitis
+                    error quo.
+                </p>
+            </div>
+
+            <div class="card-footer d-grid gap-2 col-6 mx-auto">
+                <form action="/create-checkout-session" method="POST">
+                    <button class="btn btn-dark" type="submit" id="checkout-button">
+                        By <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

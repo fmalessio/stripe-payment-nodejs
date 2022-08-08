@@ -1,0 +1,25 @@
+{
+  "name": "stripe-payment-nodejs",
+  "version": "1.0.0",
+  "description": "Stripe POC with NojdeJS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmalessio/stripe-payment-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmalessio/stripe-payment-nodejs/issues"
+  },
+  "homepage": "https://github.com/fmalessio/stripe-payment-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "stripe": "^10.0.0"
+  }
+}
