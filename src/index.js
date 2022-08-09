@@ -25,6 +25,7 @@ app.use(express.json());
 
 // Routes
 app.use(require('./routes/routes'));
+app.use(require('./routes/pay-routes'));
 
 // Static files
 app.use(express.static(path.join(__dirname, 'public')));

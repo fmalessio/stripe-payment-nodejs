@@ -1,0 +1,12 @@
+{{#> product }}
+<form action="/create-checkout-session" method="POST">
+    <!-- Product Info -->
+    <input hidden="true" name="priceID" value="price_1LUKBLDbM43bJ0ypsB45ZW2L" />
+
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-dark" type="submit" id="checkout-button">
+            By <i class="fas fa-shopping-cart"></i>
+        </button>
+    </div>
+</form>
+{{/product}}
