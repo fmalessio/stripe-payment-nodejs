@@ -1,4 +1,5 @@
-{{#> product }}
+{{#> product checkSuscription='' }}
+
 <form action="/create-checkout-session" method="POST">
     <!-- Product Info -->
     <input hidden="true" name="priceID" value="price_1LUKBLDbM43bJ0ypsB45ZW2L" />
@@ -9,4 +10,5 @@
         </button>
     </div>
 </form>
+
 {{/product}}

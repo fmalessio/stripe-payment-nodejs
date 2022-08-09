@@ -1,3 +1,16 @@
-{{#> product }}
-TODO
+{{#> product checkSuscription='checked' }}
+
+<form action="/create-checkout-suscription-session" method="POST">
+    <!-- Add a hidden field with the lookup_key of your Price -->
+    <input type="hidden" name="lookup_key" value="prod1key" />
+    
+    <input hidden="true" name="customerID" value="cus_MD8AdnYWW8CrP9" />
+
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-dark" type="submit" id="checkout-button">
+            Get Suscription <i class="fas fa-shopping-cart"></i>
+        </button>
+    </div>
+</form>
+
 {{/product}}

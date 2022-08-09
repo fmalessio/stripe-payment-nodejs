@@ -7,5 +7,6 @@ module.exports = {
   protocol: process.env.PROTOCOL,
   host: process.env.HOST,
   port: process.env.PORT,
-  stripeSecret: process.env.STRIPE_SECRET
+  stripeSecret: process.env.STRIPE_SECRET,
+  stripeDashboardSecret: process.env.STRIPE_DASHBOARD_SECRET
 };

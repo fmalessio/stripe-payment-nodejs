@@ -33,5 +33,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Listen on port
 app.listen(port, ()=> {
-    console.log(`Server started ${domain}`);
+    console.log(`Server started}`);
+    console.log(`Use ${domain} to test payments`);
+    console.log(`Use ${domain}/suscription to test suscriptions`);
 });
