@@ -3,8 +3,7 @@ Stripe POC with NojdeJS
 
 # Configure project
 
-1)
-Create a .env file in the project root (same level than package.json), and add the environment variabled. To see all variables take a look at the file **src/config.js**.
+1) Create a .env file in the project root (same level than package.json), and add the environment variabled. To see all variables take a look at the file **src/config.js**.
 Example for local:
 ```
 PROTOCOL=http
@@ -33,6 +32,20 @@ node src/index.js
 
 Here you have cards for testing:
 https://stripe.com/docs/testing?numbers-or-method-or-token=card-numbers#international-cards
+
+# Preview
+
+Payment
+
+![img1](https://github.com/img/stripe-payment-nodejs/blob/main/preview/img1.png?raw=true)
+
+Suscription
+
+![img2](https://github.com/img/stripe-payment-nodejs/blob/main/preview/img2.png?raw=true)
+
+Suscription pay
+
+![img3](https://github.com/img/stripe-payment-nodejs/blob/main/preview/img3.png?raw=true)
 
 # Links
 
