@@ -37,15 +37,15 @@ https://stripe.com/docs/testing?numbers-or-method-or-token=card-numbers#internat
 
 Payment
 
-![img1](https://github.com/img/stripe-payment-nodejs/blob/main/preview/img1.png?raw=true)
+![img1](https://github.com/fmalessio/stripe-payment-nodejs/blob/main/preview/img1.png?raw=true)
 
 Suscription
 
-![img2](https://github.com/img/stripe-payment-nodejs/blob/main/preview/img2.png?raw=true)
+![img2](https://github.com/fmalessio/stripe-payment-nodejs/blob/main/preview/img2.png?raw=true)
 
 Suscription pay
 
-![img3](https://github.com/img/stripe-payment-nodejs/blob/main/preview/img3.png?raw=true)
+![img3](https://github.com/fmalessio/stripe-payment-nodejs/blob/main/preview/img3.png?raw=true)
 
 # Links
 
